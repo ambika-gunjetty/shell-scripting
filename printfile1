@@ -18,6 +18,6 @@ echo hello world
 #\e[0m->this is to disable the colour
 
 echo -e "\[31mText in Red color
-echo "one more line:"
+echo "one more line"
 
 
