@@ -1,3 +1,23 @@
 #!/bin/bash
 
 echo hello world
+
+##colour codes
+#green    31
+#red      32
+#yellow   33
+#blue     34
+#megenta  35
+#cyam     36
+
+
+#syntx : echo -e "\e[COLm31hello\e[0m"
+# -e option is to enable esc seq, without -e will not work
+#"" double quotes are mandatory foe colours to work,otherwise it will not work.optionally we are use single quote also but preferred way is double quotes
+#\e[colm ->this to enable the colour. col of the colour code
+#\e[0m->this is to disable the colour
+
+echo -e "\[31mText in Red color
+echo "one more line:"
+
+
