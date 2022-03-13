@@ -8,3 +8,5 @@ echo $b
 
 date=10-3-2027
 echo today date is $date
+
+
